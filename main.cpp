@@ -25,5 +25,6 @@ void print(int summa){
 int main(){
     print(5);
     print(6);
+    print (7);
     return 0;
 }
