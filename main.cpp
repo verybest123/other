@@ -7,6 +7,7 @@ void printI(int summa, std::vector<int>& arr){
             std::cout<<arr[i]<<'\t';
         }
         std::cout<<'\n';
+        return;
     }
     for (int i=1;i<=summa;i++){
         if (arr.empty() || arr.back()<=i){
